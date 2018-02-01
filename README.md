@@ -1,6 +1,10 @@
 ## Nepali Date Converter
 Converts Gregorian date to Bikram Samvat date and vice versa.
 
+## Installation
+
+`composer require nitishrajuprety/nepalidateconverter`
+
 ## Usage
 
 **Gregorian to Bikram Samvat**
