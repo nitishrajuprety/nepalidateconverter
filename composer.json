@@ -1,0 +1,31 @@
+{
+    "name": "nitishrajuprety/nepalidateconverter",
+    "description": "Converts Gregorian date to Bikram Samvat date and vice versa.",
+    "authors": [
+        {
+            "name": "Nitish Raj Uprety",
+            "email": "uprety.nitish@gmail.com",
+            "homepage": "http://nitishrajuprety.com.np",
+            "role": "Developer"
+        }
+    ],
+    "version": "1.0.0",
+    "type": "library",
+    "license": "MIT",
+    "support": {
+    	"email": "uprety.nitish@gmail.com",
+    	"issues": "https://github.com/nitishrajuprety/nepalidate/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "NitishRajUprety\\NepaliDateConverter\\": "src/"
+        },
+        "files": [
+            "src/Helpers/helper.php"
+        ]
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php" : ">=5.5"
+    }
+}
